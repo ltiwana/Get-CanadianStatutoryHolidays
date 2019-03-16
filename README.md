@@ -9,14 +9,14 @@ Get Canadian Statutory Holidays using PowerShell
  ```
 
 2. You can run following commands to get the holidays for specific year and province
-Following command will get all the holidays of 2017 yearn for Ontario province (ON)
+The following command gets all the holidays of the 2017 year for Ontario province (ON)
 ```
 Get-CanadianStatutoryHolidays -Year 2019 -Province ON
 ```
 
-3. Following command will get all the holidays of 2019 yearn for Quebec province (QC)
+3. This command gets all the holidays of the 2019 year for Quebec province (QC)
 ```
 Get-CanadianStatutoryHolidays -Year 2018 -Province QC
 ```
 
-Note: make sure to use the 2 letter province abbreviation 
+Note: make sure to use the 2 letter province abbreviation. Also, use -Verbose flag to see what's happening under the hood. I am using https://www.statutoryholidays.com to get holiday data and convert the HTML page into PowerShell objects.
