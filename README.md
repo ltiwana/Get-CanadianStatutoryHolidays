@@ -1,5 +1,5 @@
-# Get-CanadianStatutoryHolidays
-Get Canadian Statutory Holidays using PowerShell 
+# Get-CanadianStatutoryHolidays 
+Get Canadian Statutory Holidays using PowerShell in table or object form
 
 
 ## How to use it:
