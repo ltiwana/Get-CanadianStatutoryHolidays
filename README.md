@@ -23,4 +23,4 @@ Note: make sure to use the 2 letter province abbreviation. Also, use -Verbose fl
 
 
 Example runs:
-./screenshots/1.png
+[./Screenshots/1.png]
