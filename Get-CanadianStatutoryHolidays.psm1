@@ -1,4 +1,4 @@
-﻿Function Get-CanadianStatutoryHolidays {
+Function Get-CanadianStatutoryHolidays {
     
     Param
     (
@@ -8,6 +8,7 @@
         [string]$Province
     )
 
+    $Province = $Province.ToUpper()
 
     Write-Verbose "Building the Weblink for year $year"    
     $WebLink = "https://www.statutoryholidays.com/$Year.php"
