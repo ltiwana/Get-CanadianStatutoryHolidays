@@ -20,3 +20,7 @@ Get-CanadianStatutoryHolidays -Year 2018 -Province QC
 ```
 
 Note: make sure to use the 2 letter province abbreviation. Also, use -Verbose flag to see what's happening under the hood. I am using https://www.statutoryholidays.com to get holiday data and convert the HTML page into PowerShell objects.
+
+
+Example runs:
+./screenshots/1.png
