@@ -23,4 +23,6 @@ Note: make sure to use the 2 letter province abbreviation. Also, use -Verbose fl
 
 
 Example runs:
-[./Screenshots/1.png]
+![Photo1](/Screenshots/1.png)
+
+![Photo2](/Screenshots/2.png)
